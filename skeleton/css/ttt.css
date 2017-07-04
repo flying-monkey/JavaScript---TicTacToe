@@ -1,0 +1,40 @@
+.cell {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  /*float: left;*/
+  border: 5px solid black;
+}
+.cell:hover {
+  background-color: yellow;
+}
+
+.row {
+  padding: 0;
+  /*width: 330px;*/
+  display: flex;
+}
+
+.grid {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width
+}
+
+.outer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.ttt {
+  border: 5px solid black;
+}
+
+body h1 {
+  text-align: center;
+}
